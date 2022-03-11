@@ -1,0 +1,266 @@
+{
+   "status":"ok",
+   "totalResults":30,
+   "articles":[
+      {
+         "source":{
+            "id":"lenta",
+            "name":"Lenta"
+         },
+         "author":"Дарья Коршунова",
+         "title":"В Минспорта рассказали об отсутствии претензий WADA к России - Lenta.ru",
+         "description":"У Всемирного антидопингового агентства нет претензий к России с точки зрения нарушений антидопинговых правил. «Страна признана соблюдающей на 100 процентов абсолютно все конвенции», — заявил министр спорта Олег Матыцин. Он добавил, что WADA признало, что в Ро…",
+         "url":"https://lenta.ru/news/2022/03/10/matitsyn/",
+         "urlToImage":"https://icdn.lenta.ru/images/2022/03/10/14/20220310143642888/share_e71550256327c3037b3989bfd6f60e1b.jpg",
+         "publishedAt":"2022-03-10T12:07:00Z",
+         "content":null
+      },
+      {
+         "source":{
+            "id":"lenta",
+            "name":"Lenta"
+         },
+         "author":"Наталия Белова",
+         "title":"В России оценили итоги переговоров Лаврова и Кулебы - Lenta.ru",
+         "description":"Депутат Госдумы Дмитрий Новиков заявил, что переговорный процесс, даже если он не приносит быстрых видимых результатов и не позволяет решить ключевые вопросы в ходе отдельных встреч, является крайне значимым для достижения общего взаимопонимания между Россией…",
+         "url":"https://lenta.ru/news/2022/03/10/itogi_lavrov/",
+         "urlToImage":"https://icdn.lenta.ru/images/2022/03/10/14/20220310145212550/share_9819a4f34d69667f156cab015a795fc5.jpg",
+         "publishedAt":"2022-03-10T11:57:00Z",
+         "content":", , . «.».\r\n« . , , . , , . , , : , », .\r\n , , . .\r\n« , , . , . , , , », .\r\n . .\r\n . , ."
+      },
+      {
+         "source":{
+            "id":"google-news",
+            "name":"Google News"
+         },
+         "author":null,
+         "title":"Определены более 200 видов товаров, запрещенных к вывозу из РФ до конца года - Интерфакс",
+         "description":null,
+         "url":"https://news.google.com/__i/rss/rd/articles/CBMiJ2h0dHBzOi8vd3d3LmludGVyZmF4LnJ1L2J1c2luZXNzLzgyNzM5M9IBAA?oc=5",
+         "urlToImage":null,
+         "publishedAt":"2022-03-10T11:49:00Z",
+         "content":null
+      },
+      {
+         "source":{
+            "id":"google-news",
+            "name":"Google News"
+         },
+         "author":null,
+         "title":"Нацбанк Украины попросил принимающие карты «Мир» страны не обслуживать их - РБК НОВОСТИ",
+         "description":null,
+         "url":"https://news.google.com/__i/rss/rd/articles/CBMiQGh0dHBzOi8vd3d3LnJiYy5ydS9lY29ub21pY3MvMTAvMDMvMjAyMi82MjI5ZDE4OTlhNzk0NzU3YmM4ZTczYWPSAQA?oc=5",
+         "urlToImage":null,
+         "publishedAt":"2022-03-10T11:30:54Z",
+         "content":null
+      },
+      {
+         "source":{
+            "id":"lenta",
+            "name":"Lenta"
+         },
+         "author":"Сергей Истомин",
+         "title":"Путин обсудил Украину с Макроном и Шольцем - Lenta.ru",
+         "description":"Президент России Владимир Путин, французский президент Эммануэль Макрон и канцлер Германии Олеф Шольц провели телефонный разговор, стороны обсуждали ситуацию на Украине. Об этом сообщил представитель Кремля Дмитрий Песков. Ранее сообщалось, что Путин 11 марта…",
+         "url":"https://lenta.ru/news/2022/03/10/pmsolcc/",
+         "urlToImage":"https://icdn.lenta.ru/images/2022/03/10/14/20220310142452012/share_111035039548a42be101bfe62cebda6d.jpg",
+         "publishedAt":"2022-03-10T11:23:00Z",
+         "content":""
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Sport-express.ru"
+         },
+         "author":"Карен Саркисян",
+         "title":"«Локомотиву» не засчитали поражение в матче с «Химками» из-за участия Кухты - Спорт-Экспресс",
+         "description":"Генеральный директор «Химок» Владимир Габулов сообщил, что КДК РФС решил не выносить «Локомотиву» поражение в матче с подмосковными клубом.",
+         "url":"https://www.sport-express.ru/football/rfpl/news/lokomotivu-ne-zaschitali-porazhenie-v-matche-20-go-tura-rpl-s-himkami-iz-za-uchastiya-napadayuschego-yana-kuhty-1901104/",
+         "urlToImage":"https://ss.sport-express.ru/userfiles/materials/176/1765162/large.jpg",
+         "publishedAt":"2022-03-10T11:10:02Z",
+         "content":"-.\r\n«- », , \r\n 77 77886 10.02.2020.\r\n«-». .. \r\n 18 .\r\n1991 . © «-», 19912022."
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Mail.ru"
+         },
+         "author":null,
+         "title":"В «М.Видео» рекомендовали не забирать диски с AC: Valhalla Dawn of Ragnarök - Player One",
+         "description":null,
+         "url":"https://games.mail.ru/pc/news/2022-03-10/v-mvideo-rekomendovali-ne-zabirat-diski-s-ac-valhalla-dawn-of-ragnarok/",
+         "urlToImage":null,
+         "publishedAt":"2022-03-10T11:01:00Z",
+         "content":null
+      },
+      {
+         "source":{
+            "id":"lenta",
+            "name":"Lenta"
+         },
+         "author":"Сергей Равин",
+         "title":"Алла Пугачева ответила на слухи о своей эмиграции из России - Lenta.ru",
+         "description":"Советская и российская певица Алла Пугачева опровергла слухи о своей эмиграции из России. Артистка ответила известному проповеднику, священнику РПЦ Андрею Ткачеву, который ранее заявил, что «Пугачева навсегда покинула Россию». Певица отметила, что «каникулы, …",
+         "url":"https://lenta.ru/news/2022/03/10/allapug/",
+         "urlToImage":"https://icdn.lenta.ru/images/2022/03/10/12/20220310125931420/share_4fe30a3452793942482a300bfa02fab3.jpg",
+         "publishedAt":"2022-03-10T10:21:00Z",
+         "content":""
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Radiokp.ru"
+         },
+         "author":"Мария Власова",
+         "title":"Премьеры «Аквамена» и «Флэша» перенесены на 2023 год - РАДИО «КОМСОМОЛЬСКАЯ ПРАВДА»",
+         "description":"«Шазам! 2» наоборот покажут раньше, чем собирались изначально.",
+         "url":"https://radiokp.ru/kino/warner-bros-perenesla-premery-akvamena-i-flesha-na-2023-god_nid578031_au45623au",
+         "urlToImage":"https://radiokp.ru/sites/default/files/styles/kp_670_446/public/2022-03/20181115_gaf_ic09_002-1.jpg?itok=oUQL88Gm",
+         "publishedAt":"2022-03-10T10:16:16Z",
+         "content":"Warner Bros. . «», «», « », « 2», «! 2», « 2», «».\r\n 17 2023 . , 23 2023 .\r\n« » 21 2022 , «» 29 2022 .\r\n «! 2» 12 2022 15 2023 . - « 2» 4 2023 , Variety.\r\n «» ."
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Championat.com"
+         },
+         "author":"Егор Бульчук",
+         "title":"Овечкин больше заработал, Ягр — выиграл. 7 различий между лучшими снайперами НХЛ из Европы - Чемпионат",
+         "description":"Чех чаще менял команды и отдавал передачи. Россиянин раньше стал семьянином.",
+         "url":"https://www.championat.com/hockey/article-4633011-aleksandr-ovechkin-i-yaromir-yagr-chem-razlichayutsya-luchshie-evropejskie-snajpery-v-istorii-nhl.html",
+         "urlToImage":"https://img.championat.com/news/social/9/92/4633011.jpg",
+         "publishedAt":"2022-03-10T10:00:14Z",
+         "content":", . .\r\n8- 68- : ; ; , , . .\r\n . vs 2:13\r\n . , , «» « ».\r\n . «» . 11 «». , . 1994 . : «», «» « ».\r\n «» , . «», 2004-2005 «» «», «- ». , «», «», «», «-», «» «».\r\n . vs 1:3\r\n . 2018 , - . 33 .\r\n , , . 1… [+595 chars]"
+      },
+      {
+         "source":{
+            "id":"google-news",
+            "name":"Google News"
+         },
+         "author":null,
+         "title":"Россия и Украина: онлайн-трансляция 10 марта - Московский Комсомолец",
+         "description":null,
+         "url":"https://news.google.com/__i/rss/rd/articles/CBMiWGh0dHBzOi8vd3d3Lm1rLnJ1L3BvbGl0aWNzLzIwMjIvMDMvMTAvcm9zc2l5YS1pLXVrcmFpbmEtb25sYXludHJhbnNseWFjaXlhLTEwLW1hcnRhLmh0bWzSAQA?oc=5",
+         "urlToImage":null,
+         "publishedAt":"2022-03-10T09:32:39Z",
+         "content":null
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Svoboda.org"
+         },
+         "author":"RFE/RL",
+         "title":"Роман Абрамович попал под санкции в Великобритании - Радио Свобода ",
+         "description":"Великобритания ввела санкции против владельца футбольного клуба \"Челси\" Романа Абрамовича, Олега Дерипаски и ещё нескольких известных российских бизнесменов и руководителей госкомпаний. Список выложен на сайте британского правительства.\r\n В нём — глава \"Росне…",
+         "url":"https://www.svoboda.org/a/31746110.html",
+         "urlToImage":"https://gdb.rferl.org/F4968C14-3D0A-463A-8C67-316B0FF502F8_w1200_r1.jpg",
+         "publishedAt":"2022-03-10T09:25:45Z",
+         "content":"No media source currently available"
+      },
+      {
+         "source":{
+            "id":"lenta",
+            "name":"Lenta"
+         },
+         "author":"Екатерина Андреева",
+         "title":"Франция заявила о трудностях из-за возможного вступления Украины в ЕС - Lenta.ru",
+         "description":"Госсекретарь при МИД Франции Клеман Бон заявил, что возможное вступление Украины и других стран в Европейский союз вызовет дополнительные проблемы с принятием решений в сообществе. Дипломат заключил, что в случае расширение объединения за счет Украины, Грузии…",
+         "url":"https://lenta.ru/news/2022/03/10/es_complicated/",
+         "urlToImage":"https://icdn.lenta.ru/images/2022/03/10/12/20220310121942288/share_5cbd2ebe2082a55341f465a8861a901e.jpg",
+         "publishedAt":"2022-03-10T09:25:00Z",
+         "content":""
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Gazeta.ru"
+         },
+         "author":null,
+         "title":"Кремль прокомментировал выход России из Совета Европы - Газета.Ru",
+         "description":"Пресс-секретарь президента России Дмитрий Песков прокомментировал выход России из Совета Европы.",
+         "url":"https://www.gazeta.ru/politics/news/2022/03/10/17405755.shtml",
+         "urlToImage":"https://img.gazeta.ru/files3/605/14615605/con-pic_32ratio_900x600-900x600-30275.jpg",
+         "publishedAt":"2022-03-10T09:21:35Z",
+         "content":null
+      },
+      {
+         "source":{
+            "id":"google-news",
+            "name":"Google News"
+         },
+         "author":null,
+         "title":"Песков сравнил прогнозы по инфляции с гаданием на кофейной гуще - РБК НОВОСТИ",
+         "description":null,
+         "url":"https://news.google.com/__i/rss/rd/articles/CBMiQGh0dHBzOi8vd3d3LnJiYy5ydS9lY29ub21pY3MvMTAvMDMvMjAyMi82MjI5YmY3YTlhNzk0NzRlZTVjYzQ5ODDSAQA?oc=5",
+         "urlToImage":null,
+         "publishedAt":"2022-03-10T09:20:17Z",
+         "content":null
+      },
+      {
+         "source":{
+            "id":"lenta",
+            "name":"Lenta"
+         },
+         "author":"Платон Щукин",
+         "title":"Франция начала готовиться к остановке поставок газа из России - Lenta.ru",
+         "description":"Уже несколько дней французские производители пытаются найти решения, как обойтись без российского газа. Ежедневно проводятся межведомственные встречи с основными игроками газового рынка, такими как Engie, TotalEnergies, EDF, GRDF и GRT Gaz. Они рассматривали …",
+         "url":"https://lenta.ru/news/2022/03/10/fr/",
+         "urlToImage":"https://icdn.lenta.ru/images/2022/03/10/11/20220310110557402/share_22b96f87e40025c47ae9be8d24fd23e3.jpg",
+         "publishedAt":"2022-03-10T08:56:02Z",
+         "content":", . BFMTV, , Engie, TotalEnergies, EDF, GRDF GRT Gaz.\r\n : . « , \"\" , », .\r\n , , . , . , , , . 20 , , .\r\n . -, . « , », .\r\n . , ."
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Kommersant.ru"
+         },
+         "author":null,
+         "title":"Курсы доллара и евро на Мосбирже обновили исторические максимумы - Коммерсантъ",
+         "description":"Подробнее на сайте",
+         "url":"https://www.kommersant.ru/doc/5250820",
+         "urlToImage":"https://im.kommersant.ru/SocialPics/5250820_26_0_1008078857",
+         "publishedAt":"2022-03-10T07:30:26Z",
+         "content":"11:00 132 ., — 121 . , , 9 . \r\n 10 . 10 126,4 ., 116 . \r\n , - , 24 . , , . 30% , ."
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Quote.rbc.ru"
+         },
+         "author":null,
+         "title":"Совет директоров Amazon одобрил дробление акций в соотношении 20:1 - РБК Инвестиции",
+         "description":"РБК Инвестиции :: котировки, курсы валют, новости, компании.",
+         "url":"https://quote.rbc.ru/news/article/62299e3d9a79473d464b3df2",
+         "urlToImage":"https://s0.rbk.ru/v6_top_pics/media/img/7/00/756468950075007.jpg",
+         "publishedAt":"2022-03-10T07:10:40Z",
+         "content":"Amazon 20:1, $10 . .\r\n 6,73%, $2973,01. 0:44 10,92%, $3089,8 . NASDAQ.\r\n , 27 2022 , 19 3 . 18 , 25 .\r\n — . , . , , . 2020 Apple Tesla. 20:1 Alphabet, Google.\r\n 9 Amazon $2785,58 .   9 ,   $139,28, C… [+340 chars]"
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Gazeta.ru"
+         },
+         "author":null,
+         "title":"Кадыров высказался о финансируемых США биолабораториях на Украине - Газета.Ru",
+         "description":"Глава Чечни Рамзан Кадыров заявил, что он «глубоко шокирован» новостью о наличии на территории Украины десятков биолабораторий, финансируемых США. При этом слова заместителя госсекретаря США Виктории Нуланд, которая «возложила ответственность за любой инциден…",
+         "url":"https://www.gazeta.ru/army/news/2022/03/10/17404711.shtml",
+         "urlToImage":"https://img.gazeta.ru/files3/207/14578207/RIAN_8126276.HR-pic_32ratio_900x600-900x600-80081.jpg",
+         "publishedAt":"2022-03-10T06:58:32Z",
+         "content":", « »     , .   , «     »    , « ».   Telegram-.\r\n , ,   .\r\n « »,   .\r\n«, ,   ,     », — .\r\n     .   , ,   .\r\n , - , ,    ."
+      },
+      {
+         "source":{
+            "id":null,
+            "name":"Gazeta.ru"
+         },
+         "author":null,
+         "title":"Компания Mars приостанавливает рекламу и инвестиции в России - Газета.Ru",
+         "description":"Американская компания Mars, специализирующая на продуктах питания, приостановит всю свою рекламу и инвестиции в России и Белоруссии. Об этом сообщает ТАСС со ссылкой на компанию.",
+         "url":"https://www.gazeta.ru/social/news/2022/03/10/17404549.shtml",
+         "urlToImage":"https://img.gazeta.ru/files3/95/14615095/mars-pic_32ratio_900x600-900x600-63615.jpg",
+         "publishedAt":"2022-03-10T05:00:29Z",
+         "content":"Mars,   ,   .  .\r\n«   .  », —  -.\r\n Mars , Bounty, Milky Way Twix.\r\n   Carlsberg ,   .\r\n , Heineken   Heineken   .\r\n,   , Heineken     , ."
+      }
+   ]
+}

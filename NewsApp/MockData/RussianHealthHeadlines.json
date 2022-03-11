@@ -1,0 +1,19 @@
+{
+   "status":"ok",
+   "totalResults":1,
+   "articles":[
+      {
+         "source":{
+            "id":null,
+            "name":"Mail.ru"
+         },
+         "author":"Татьяна Щеглова",
+         "title":"Подтверждена польза скандинавской диеты для здоровья - Здоровье Mail.ru",
+         "description":"Такой тип питания помогает не только похудеть, но и снизить риск сердечно-сосудистых болезней и диабета.",
+         "url":"https://health.mail.ru/news/podtverzhdena_polza_skandinavskoy_diety_dlya/",
+         "urlToImage":"https://health.mail.ru/sharepic/33/1347673/?1646831094",
+         "publishedAt":"2022-03-09T13:04:54Z",
+         "content":", , , , . , . , , , , , , , . Clinical Nutrition.\r\n 200 50 , . - . . , , , , . , .\r\n , «» ,   () , . , .   \r\n , -3 -6, . : , . , , .   \r\n : \r\n , ?\r\n :"
+      }
+   ]
+}

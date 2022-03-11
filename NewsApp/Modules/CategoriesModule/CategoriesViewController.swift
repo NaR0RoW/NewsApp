@@ -1,7 +1,6 @@
 import UIKit
 
 final class CategoriesViewController: UIViewController {
-    
     private lazy var categoriesTableView: UITableView = {
         let tableView = UITableView()
         tableView.registerCell(CategoriesTableViewCell.self)
@@ -23,7 +22,6 @@ final class CategoriesViewController: UIViewController {
 
 extension CategoriesViewController {
     private func setupView() {
-        categoriesTableView.backgroundColor = .systemBackground
         navigationController?.navigationBar.barTintColor = .systemBackground
         navigationController?.navigationBar.shadowImage = UIImage()
         navigationController?.navigationBar.prefersLargeTitles = true
@@ -43,18 +41,32 @@ extension CategoriesViewController {
 
 extension CategoriesViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 17
+        return categoriesData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(forIndexPath: indexPath) as CategoriesTableViewCell
+        cell.configureCell(with: CategoriesTableViewCellViewModel(with: categoriesData[indexPath.row]))
+        cell.delegate = self
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("Select: ", indexPath.row)
     }
 }
 
 extension CategoriesViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 58.0
+    }
+}
+
+extension CategoriesViewController: CategoriesTableViewCellDelegate {
+    func categoriesTableViewCellDelegate(_ cell: CategoriesTableViewCell, didTapWith viewModel: CategoriesTableViewCellViewModel) {
+        if viewModel.categoryFollowStatus {
+            
+        }
     }
 }

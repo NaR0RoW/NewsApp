@@ -1,10 +1,16 @@
 import UIKit
 
+protocol CategoriesTableViewCellDelegate: AnyObject {
+    func categoriesTableViewCellDelegate(_ cell: CategoriesTableViewCell, didTapWith viewModel: CategoriesTableViewCellViewModel)
+}
+
 final class CategoriesTableViewCell: UITableViewCell {
+    weak var delegate: CategoriesTableViewCellDelegate?
+    
+    private var viewModel: CategoriesTableViewCellViewModel?
     
     private let categoryImageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(systemName: "person.fill")
         imageView.translatesAutoresizingMaskIntoConstraints = false
         
         return imageView
@@ -12,7 +18,6 @@ final class CategoriesTableViewCell: UITableViewCell {
     
     private let categoryLabel: UILabel = {
         let label = UILabel()
-        label.text = "Авто"
         label.font = .systemFont(ofSize: 18.0, weight: .bold)
         label.translatesAutoresizingMaskIntoConstraints = false
         
@@ -21,8 +26,6 @@ final class CategoriesTableViewCell: UITableViewCell {
     
     private let unsubscribeButton: UIButton = {
         let button = UIButton()
-        button.setTitle("Отписаться", for: .normal)
-        button.setTitleColor(.systemGreen, for: .normal)
         button.layer.cornerRadius = 6.0
         button.layer.borderWidth = 2.0
         button.layer.borderColor = UIColor.systemGreen.cgColor
@@ -45,6 +48,22 @@ final class CategoriesTableViewCell: UITableViewCell {
 }
 
 extension CategoriesTableViewCell {
+    func configureCell(with viewModel: CategoriesTableViewCellViewModel) {
+        self.viewModel = viewModel
+        categoryImageView.image = viewModel.categoryImage
+        categoryLabel.text = viewModel.categoryName
+        
+        if viewModel.categoryFollowStatus {
+            unsubscribeButton.setTitle("Отписаться", for: .normal)
+            unsubscribeButton.backgroundColor = .systemBackground
+            unsubscribeButton.setTitleColor(.systemGreen, for: .normal)
+        } else {
+            unsubscribeButton.setTitle("Подписаться", for: .normal)
+            unsubscribeButton.backgroundColor = .systemGreen
+            unsubscribeButton.setTitleColor(.white, for: .normal)
+        }
+    }
+    
     private func setupView() {
         contentView.addSubview(categoryImageView)
         NSLayoutConstraint.activate([
@@ -70,6 +89,15 @@ extension CategoriesTableViewCell {
     }
     
     @objc private func tapUnsubscribe() {
+        guard let viewModel = viewModel else { return }
+        
+        var newViewModel = viewModel
+        newViewModel.categoryFollowStatus = !viewModel.categoryFollowStatus
+        
+        delegate?.categoriesTableViewCellDelegate(self, didTapWith: newViewModel)
+        
+        configureCell(with: newViewModel)
+        
         print("Tapped subscribe")
     }
 }

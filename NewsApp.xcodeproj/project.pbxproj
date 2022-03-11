@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2058C527D9FE4A00766087 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2058C427D9FE4A00766087 /* ProfileTableViewCell.swift */; };
+		0D2716DC27DA2A53009E939D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2716DB27DA2A53009E939D /* NetworkManager.swift */; };
+		0D2716DE27DA2A6C009E939D /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2716DD27DA2A6C009E939D /* MainViewModel.swift */; };
+		0D2716E027DA3786009E939D /* TopRussianHeadlines.json in Resources */ = {isa = PBXBuildFile; fileRef = 0D2716DF27DA3786009E939D /* TopRussianHeadlines.json */; };
 		0D57FD4A27D8B51E006563CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D57FD4927D8B51E006563CB /* AppDelegate.swift */; };
 		0D57FD4E27D8B51E006563CB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D57FD4D27D8B51E006563CB /* MainViewController.swift */; };
 		0D57FD5327D8B51F006563CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D57FD5227D8B51F006563CB /* Assets.xcassets */; };
@@ -21,9 +25,23 @@
 		0D61C59727D8EE9600D5AAEF /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D61C59627D8EE9600D5AAEF /* NewsModel.swift */; };
 		0D61C59A27D9016B00D5AAEF /* CategoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D61C59927D9016B00D5AAEF /* CategoriesTableViewCell.swift */; };
 		0D61C59C27D901E800D5AAEF /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D61C59B27D901E800D5AAEF /* UITableView+Extension.swift */; };
+		0DD040F227DB64BB007D92A5 /* RussianEntertainmentHeadlines.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DD040F127DB64BB007D92A5 /* RussianEntertainmentHeadlines.json */; };
+		0DD040F427DB64F7007D92A5 /* RussianBusinessHeadlines.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DD040F327DB64F7007D92A5 /* RussianBusinessHeadlines.json */; };
+		0DD040F627DB6518007D92A5 /* RussianGeneralHeadlines.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DD040F527DB6518007D92A5 /* RussianGeneralHeadlines.json */; };
+		0DD040F827DB6521007D92A5 /* RussianHealthHeadlines.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DD040F727DB6521007D92A5 /* RussianHealthHeadlines.json */; };
+		0DD040FA27DB652E007D92A5 /* RussianScienceHeadlines.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DD040F927DB652E007D92A5 /* RussianScienceHeadlines.json */; };
+		0DD040FC27DB653B007D92A5 /* RussianSportsHeadlines.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DD040FB27DB653B007D92A5 /* RussianSportsHeadlines.json */; };
+		0DD040FE27DB6549007D92A5 /* RussianTechnologyHeadlines.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DD040FD27DB6549007D92A5 /* RussianTechnologyHeadlines.json */; };
+		0DD0410027DB6901007D92A5 /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD040FF27DB6901007D92A5 /* CategoriesViewModel.swift */; };
+		0DD0410227DB7E50007D92A5 /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0410127DB7E50007D92A5 /* CategoriesModel.swift */; };
+		0DD0410427DB7ED8007D92A5 /* CategoriesTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DD0410327DB7ED8007D92A5 /* CategoriesTableViewCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D2058C427D9FE4A00766087 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		0D2716DB27DA2A53009E939D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0D2716DD27DA2A6C009E939D /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		0D2716DF27DA3786009E939D /* TopRussianHeadlines.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TopRussianHeadlines.json; sourceTree = "<group>"; };
 		0D57FD4627D8B51E006563CB /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D57FD4927D8B51E006563CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D57FD4D27D8B51E006563CB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +58,16 @@
 		0D61C59627D8EE9600D5AAEF /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
 		0D61C59927D9016B00D5AAEF /* CategoriesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCell.swift; sourceTree = "<group>"; };
 		0D61C59B27D901E800D5AAEF /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		0DD040F127DB64BB007D92A5 /* RussianEntertainmentHeadlines.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RussianEntertainmentHeadlines.json; sourceTree = "<group>"; };
+		0DD040F327DB64F7007D92A5 /* RussianBusinessHeadlines.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RussianBusinessHeadlines.json; sourceTree = "<group>"; };
+		0DD040F527DB6518007D92A5 /* RussianGeneralHeadlines.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RussianGeneralHeadlines.json; sourceTree = "<group>"; };
+		0DD040F727DB6521007D92A5 /* RussianHealthHeadlines.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RussianHealthHeadlines.json; sourceTree = "<group>"; };
+		0DD040F927DB652E007D92A5 /* RussianScienceHeadlines.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RussianScienceHeadlines.json; sourceTree = "<group>"; };
+		0DD040FB27DB653B007D92A5 /* RussianSportsHeadlines.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RussianSportsHeadlines.json; sourceTree = "<group>"; };
+		0DD040FD27DB6549007D92A5 /* RussianTechnologyHeadlines.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RussianTechnologyHeadlines.json; sourceTree = "<group>"; };
+		0DD040FF27DB6901007D92A5 /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
+		0DD0410127DB7E50007D92A5 /* CategoriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesModel.swift; sourceTree = "<group>"; };
+		0DD0410327DB7ED8007D92A5 /* CategoriesTableViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +81,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D2716DA27DA2A46009E939D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0D2716DB27DA2A53009E939D /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0D2716E127DA3891009E939D /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				0D2716DF27DA3786009E939D /* TopRussianHeadlines.json */,
+				0DD040F127DB64BB007D92A5 /* RussianEntertainmentHeadlines.json */,
+				0DD040F327DB64F7007D92A5 /* RussianBusinessHeadlines.json */,
+				0DD040F527DB6518007D92A5 /* RussianGeneralHeadlines.json */,
+				0DD040F727DB6521007D92A5 /* RussianHealthHeadlines.json */,
+				0DD040F927DB652E007D92A5 /* RussianScienceHeadlines.json */,
+				0DD040FB27DB653B007D92A5 /* RussianSportsHeadlines.json */,
+				0DD040FD27DB6549007D92A5 /* RussianTechnologyHeadlines.json */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
 		0D57FD3D27D8B51E006563CB = {
 			isa = PBXGroup;
 			children = (
@@ -74,7 +125,9 @@
 			children = (
 				0D57FD4927D8B51E006563CB /* AppDelegate.swift */,
 				0D61C59827D9010100D5AAEF /* Extensions */,
+				0D2716E127DA3891009E939D /* MockData */,
 				0D61C59127D8D83200D5AAEF /* SupportingFiles */,
+				0D2716DA27DA2A46009E939D /* Managers */,
 				0D61C59327D8ED4C00D5AAEF /* Models */,
 				0D61C59227D8ED4300D5AAEF /* Modules */,
 			);
@@ -95,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				0D57FD4D27D8B51E006563CB /* MainViewController.swift */,
+				0D2716DD27DA2A6C009E939D /* MainViewModel.swift */,
 			);
 			path = MainModule;
 			sourceTree = "<group>";
@@ -112,6 +166,9 @@
 			children = (
 				0D61C58D27D8D11F00D5AAEF /* CategoriesViewController.swift */,
 				0D61C59927D9016B00D5AAEF /* CategoriesTableViewCell.swift */,
+				0DD040FF27DB6901007D92A5 /* CategoriesViewModel.swift */,
+				0DD0410127DB7E50007D92A5 /* CategoriesModel.swift */,
+				0DD0410327DB7ED8007D92A5 /* CategoriesTableViewCellViewModel.swift */,
 			);
 			path = CategoriesModule;
 			sourceTree = "<group>";
@@ -120,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				0D61C58B27D8D0FD00D5AAEF /* ProfileViewController.swift */,
+				0D2058C427D9FE4A00766087 /* ProfileTableViewCell.swift */,
 			);
 			path = ProfileModule;
 			sourceTree = "<group>";
@@ -221,7 +279,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD040FA27DB652E007D92A5 /* RussianScienceHeadlines.json in Resources */,
+				0DD040FC27DB653B007D92A5 /* RussianSportsHeadlines.json in Resources */,
+				0DD040F627DB6518007D92A5 /* RussianGeneralHeadlines.json in Resources */,
+				0DD040F227DB64BB007D92A5 /* RussianEntertainmentHeadlines.json in Resources */,
+				0DD040F427DB64F7007D92A5 /* RussianBusinessHeadlines.json in Resources */,
 				0D57FD5627D8B51F006563CB /* LaunchScreen.storyboard in Resources */,
+				0DD040F827DB6521007D92A5 /* RussianHealthHeadlines.json in Resources */,
+				0DD040FE27DB6549007D92A5 /* RussianTechnologyHeadlines.json in Resources */,
+				0D2716E027DA3786009E939D /* TopRussianHeadlines.json in Resources */,
 				0D57FD5327D8B51F006563CB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,11 +303,17 @@
 				0D61C58227D8CEF200D5AAEF /* TabBarController.swift in Sources */,
 				0D61C59A27D9016B00D5AAEF /* CategoriesTableViewCell.swift in Sources */,
 				0D61C59027D8D13700D5AAEF /* VideoViewController.swift in Sources */,
+				0DD0410227DB7E50007D92A5 /* CategoriesModel.swift in Sources */,
 				0D61C58427D8CF0200D5AAEF /* TabBarModuleBuilder.swift in Sources */,
+				0DD0410427DB7ED8007D92A5 /* CategoriesTableViewCellViewModel.swift in Sources */,
+				0D2716DE27DA2A6C009E939D /* MainViewModel.swift in Sources */,
+				0DD0410027DB6901007D92A5 /* CategoriesViewModel.swift in Sources */,
 				0D61C59727D8EE9600D5AAEF /* NewsModel.swift in Sources */,
 				0D57FD4E27D8B51E006563CB /* MainViewController.swift in Sources */,
 				0D61C59527D8ED5E00D5AAEF /* CurrencyModel.swift in Sources */,
 				0D57FD4A27D8B51E006563CB /* AppDelegate.swift in Sources */,
+				0D2058C527D9FE4A00766087 /* ProfileTableViewCell.swift in Sources */,
+				0D2716DC27DA2A53009E939D /* NetworkManager.swift in Sources */,
 				0D61C58E27D8D11F00D5AAEF /* CategoriesViewController.swift in Sources */,
 				0D61C58627D8CF1200D5AAEF /* TabBarRouter.swift in Sources */,
 				0D61C59C27D901E800D5AAEF /* UITableView+Extension.swift in Sources */,
