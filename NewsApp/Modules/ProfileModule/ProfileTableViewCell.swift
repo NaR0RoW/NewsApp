@@ -3,7 +3,7 @@ import UIKit
 final class ProfileTableViewCell: UITableViewCell {
     private let profileImageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(systemName: "person.fill")
+        imageView.tintColor = .label
         imageView.translatesAutoresizingMaskIntoConstraints = false
         
         return imageView
@@ -11,7 +11,6 @@ final class ProfileTableViewCell: UITableViewCell {
     
     private let profileLabel: UILabel = {
         let label = UILabel()
-        label.text = "Избранное"
         label.font = .systemFont(ofSize: 18.0, weight: .bold)
         label.translatesAutoresizingMaskIntoConstraints = false
         
@@ -21,7 +20,7 @@ final class ProfileTableViewCell: UITableViewCell {
     private let moreImageView: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(systemName: "chevron.right")
-        imageView.tintColor = .black
+        imageView.tintColor = .label
         imageView.translatesAutoresizingMaskIntoConstraints = false
         
         return imageView
@@ -31,7 +30,7 @@ final class ProfileTableViewCell: UITableViewCell {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         selectionStyle = .none
         
-        setupView()
+        configureView()
     }
     
     required init?(coder: NSCoder) {
@@ -40,12 +39,17 @@ final class ProfileTableViewCell: UITableViewCell {
 }
 
 extension ProfileTableViewCell {
-    private func setupView() {
+    func configureCell(with viewModel: ProfileTableViewCellViewModel) {
+        profileImageView.image = viewModel.profileImage
+        profileLabel.text = viewModel.profileName
+    }
+    
+    private func configureView() {
         contentView.addSubview(profileImageView)
         NSLayoutConstraint.activate([
             profileImageView.centerYAnchor.constraint(equalTo: centerYAnchor),
             profileImageView.leftAnchor.constraint(equalTo: leftAnchor, constant: 15.0),
-            profileImageView.widthAnchor.constraint(equalToConstant: contentView.frame.size.height - 5.0),
+            profileImageView.widthAnchor.constraint(equalToConstant: contentView.frame.size.height / 1.5),
             profileImageView.heightAnchor.constraint(equalTo: profileImageView.widthAnchor)
         ])
         

@@ -38,7 +38,7 @@ final class CategoriesTableViewCell: UITableViewCell {
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         selectionStyle = .none
-        setupView()
+        configureView()
         unsubscribeButton.addTarget(self, action: #selector(tapUnsubscribe), for: .touchUpInside)
     }
     
@@ -64,7 +64,7 @@ extension CategoriesTableViewCell {
         }
     }
     
-    private func setupView() {
+    private func configureView() {
         contentView.addSubview(categoryImageView)
         NSLayoutConstraint.activate([
             categoryImageView.centerYAnchor.constraint(equalTo: centerYAnchor),

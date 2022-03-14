@@ -15,20 +15,19 @@ final class CategoriesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        setupView()
-        setupCategoriesTableView()
+        configureView()
     }
 }
 
 extension CategoriesViewController {
-    private func setupView() {
-        navigationController?.navigationBar.barTintColor = .systemBackground
-        navigationController?.navigationBar.shadowImage = UIImage()
+    private func configureView() {
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationItem.title = "Категории"
+        
+        configureCategoriesTableView()
     }
     
-    private func setupCategoriesTableView() {
+    private func configureCategoriesTableView() {
         view.addSubview(categoriesTableView)
         NSLayoutConstraint.activate([
             categoriesTableView.topAnchor.constraint(equalTo: view.topAnchor),

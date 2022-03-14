@@ -9,6 +9,7 @@ final class MainViewController: UIViewController {
         let button = UIButton()
         button.setImage(UIImage(systemName: "newspaper.circle.fill"), for: .normal)
         button.setPreferredSymbolConfiguration(UIImage.SymbolConfiguration(pointSize: 48.0), forImageIn: .normal)
+        button.tintColor = .systemGreen
         button.translatesAutoresizingMaskIntoConstraints = false
         
         return button
@@ -17,7 +18,7 @@ final class MainViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setupView()
+        configureView()
         recentlyNewsButton.addTarget(self, action: #selector(recentlyNewsTapped), for: .touchUpInside)
         
 //        let service = NewsService(networkRequest: NativeRequestable(), environment: .topCountryHeadlines)
@@ -51,7 +52,7 @@ final class MainViewController: UIViewController {
 }
 
 extension MainViewController {
-    private func setupView() {
+    private func configureView() {
         view.backgroundColor = .systemBackground
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationItem.title = "Главное"

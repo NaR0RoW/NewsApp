@@ -5,12 +5,12 @@ final class VideoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        setupView()
+        configureView()
     }
 }
 
 extension VideoViewController {
-    private func setupView() {
+    private func configureView() {
         view.backgroundColor = .systemBackground
         navigationController?.navigationBar.prefersLargeTitles = true
         navigationItem.title = "Видео"
